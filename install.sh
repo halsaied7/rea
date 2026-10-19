@@ -7,6 +7,7 @@
 # EOF without running anything. Without the guard, a cut right after `set`
 # would run the bare builtin and print every shell variable, and a cut right
 # after `main` would run the installer without the caller's flags.
+# This script installs the REA CLI and ensures the correct Node.js version is used.
 set -euo pipefail
 
 PACKAGE="rea-agents"
